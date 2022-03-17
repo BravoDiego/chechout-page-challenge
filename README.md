@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://bravodiego-checkout-page-challenge.netlify.app">
+    <a href="https://diegobravo-checkout-page-challenge.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://bravodiego-checkout-page-challenge.netlify.app">
+    <a href="https://diegobravo-checkout-page-challenge.netlify.app">
       Solution
     </a>
     <span> | </span>

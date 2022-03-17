@@ -327,6 +327,33 @@ strike {
     justify-content: space-between;
 }
 
+footer {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+
+
+    color: #BDBDBD;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    padding-top: 50px;
+    padding-bottom: 24px;
+}
+
+#lien {
+    text-decoration: underline;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
 @media (max-width: 800px){
     main{
         display: flex;
