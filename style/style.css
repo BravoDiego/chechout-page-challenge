@@ -242,6 +242,10 @@ label {
     justify-content: flex-end;
 }
 
+.flex {
+    display: flex;
+}
+
 #box2 {
     font-family: 'Montserrat';
     font-weight: 600;
