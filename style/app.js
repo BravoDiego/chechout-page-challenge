@@ -29,7 +29,7 @@ function totalcalcul() {
         total.textContent = "Why you command ?";
         dollar.style.display = "none";
     }else {
-        dollar.style.display = "block";
+        dollar.style.display = "flex";
     }
 }
 
