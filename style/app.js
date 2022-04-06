@@ -8,6 +8,7 @@ var compteur1 = document.getElementById('compteur1');
 var compteur2 = document.getElementById('compteur2');
 
 var total = document.getElementById('total');
+var dollar = document.getElementById('dollar');
 
 var compte = 1;
 var compte2 = 1;
@@ -24,7 +25,10 @@ remove2.addEventListener("click", moin2);
 
 function totalcalcul() {
     total.textContent = Math.round((54.99 * compte + 54.99 * compte2 + 19) * 100)/100;
-
+    if(compte == 0 && compte2 == 0) {
+        total.textContent = "Why you command ?";
+        dollar.style.display = "none";
+    }
 }
 
 function plus1() {
