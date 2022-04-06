@@ -28,6 +28,8 @@ function totalcalcul() {
     if(compte == 0 && compte2 == 0) {
         total.textContent = "Why you command ?";
         dollar.style.display = "none";
+    }else {
+        dollar.style.display = "block";
     }
 }
 
